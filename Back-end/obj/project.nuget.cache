@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "lb8jiVVuYLKJ3HC5DH1xVDpa8C82JNfCEsEu/NpoK8hDWUGJu4lWCaQTvf4vdYGF1+yajRWXCglM2FF7n+9a4w==",
+  "dgSpecHash": "Upsd/I/eyrqypTeO5FZJOBWA1PS1wUhV0doJDw+CvbO+ecuvs3XljrFhIJqK2yGyCn2ddPc7Tlr84xzJvjARyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\levid\\OneDrive\\Documentos\\SistemaInfo\\Desafio Técnico Admissão\\Back-end\\Back-end.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.0\\microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\levid\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
