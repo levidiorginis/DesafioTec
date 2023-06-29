@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Back_end.Util;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Back_end.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [AllowAnonymous]
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _config;

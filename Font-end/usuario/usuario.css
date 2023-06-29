@@ -1,0 +1,74 @@
+.usuario-app {
+    margin: 0;
+    background-color: #d5e4ff;
+}
+
+.usuario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background: linear-gradient(to right, #393987, #0092ab);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+  }
+  
+  .usuario-lista {
+    list-style: none;
+    padding: 0;
+    width: 600px;
+  }
+
+  form {
+    margin-top: 50px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  button {
+    max-width: 125px;
+  }
+  
+  .usuario-lista li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    gap: 30px; 
+    justify-content: space-between;
+  }
+  
+  .usuario-lista li .editar-icon,
+  .usuario-lista li .excluir-icon {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.usuario-lista li .excluir-icon {
+    margin-left: 10px;
+    color: red;
+  }
+  

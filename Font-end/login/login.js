@@ -4,7 +4,7 @@ angular
     $scope.loginData = {};
 
     $scope.login = function () {
-      var url = "https://localhost:7525/api/auth";
+      var url = "https://localhost:7287/api/auth";
       var headers = {
         login: $scope.loginData.username,
         password: $scope.loginData.password,
@@ -16,10 +16,10 @@ angular
           // Requisição bem-sucedida
           if (response.status === 200) {
             // Salve o token no cookie
-            document.cookie = "token=" + response.data.token;
+            document.cookie = "token=" + response.data.token + "; path=/";
 
             // Redirecione para a página em branco
-            window.location.href = "blank.html";
+            window.location.pathname = "usuario/usuario.html";
           } else {
             // Credenciais incorretas
             $scope.errorMessage = "Login ou senha incorretos.";

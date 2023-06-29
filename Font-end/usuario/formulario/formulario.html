@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Meu Projeto AngularJS - Usuários</title>
+  <link rel="stylesheet" href="../usuario.css">
+  <script src="../../node_modules/angular/angular.min.js"></script>
+  <script src="./formulario.js"></script>
+</head>
+
+<body ng-app="formularioApp" ng-controller="formularioController" class="usuario-app">
+  <header class="header">
+    <div class="logo">
+      <img src="../../img/logo.png" alt="Logo">
+    </div>
+  </header>
+  <main class="usuario-container">
+    <form ng-submit="salvarUsuario()">
+      <!-- Campos do formulário -->
+      <div>
+        <label for="codigo">Código:</label>
+        <input type="text" ng-model="usuario.userCode" id="codigo">
+
+        <label for="nome">Nome:</label>
+        <input type="text" ng-model="usuario.name" id="nome" required>
+      </div>
+
+      <div>
+        <label for="cpf">CPF:</label>
+        <input type="text" ng-model="usuario.CPF" id="cpf" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" ng-model="usuario.telephone" id="telefone">
+      </div>
+
+      <div>
+        <label for="cep">CEP:</label>
+        <input type="text" ng-model="usuario.postalCode" id="cep">
+
+        <label for="pais">País:</label>
+        <input type="text" ng-model="usuario.country" id="pais">
+      </div>
+
+      <div>
+        <label for="estado">Estado:</label>
+        <input type="text" ng-model="usuario.state" id="estado">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" ng-model="usuario.city" id="cidade">
+      </div>
+
+      <div>
+        <label for="bairro">Bairro:</label>
+        <input type="text" ng-model="usuario.district" id="bairro">
+
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" ng-model="usuario.street" id="logradouro">
+      </div>
+
+      <div>
+        <label for="numero">Número:</label>
+        <input type="text" ng-model="usuario.number" id="numero">
+
+        <label for="complemento">Complemento:</label>
+        <input type="text" ng-model="usuario.complement" id="complemento">
+      </div>
+
+      <!-- Outros campos do formulário -->
+
+      <button type="submit">Salvar</button>
+    </form>
+  </main>
+</body>
+
+</html>
